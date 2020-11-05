@@ -1,0 +1,109 @@
+/* CSS */
+h1, img{
+	text-align: center;
+}
+#design4green {
+	display: block;
+    margin:  auto;
+    margin-right: auto;
+}
+body {
+	display: block;
+	margin: auto;
+	font: 15px 'Segoe UI';
+}
+footer a {
+	text-decoration: none;
+	color: grey;
+}
+footer a:hover {
+	color: white;
+}
+#add{
+	font-size: 4em;
+	margin: 0;
+	cursor: pointer;
+}
+fieldset {
+	background-color: #eeeeee;
+}
+
+/*Pour les Ã©crans Ã  moins de 1366px comprend ecran Ã  768px*/
+@media only screen and (max-width: 1366px) {
+	body{
+		margin: auto;
+		height: auto;
+		background-color: white;
+		font-size: 1.2em;
+	}
+	#search{
+		text-align: center;
+		align-items: center;
+	}
+	#search input, select{
+		font-size: 1.2em;
+		margin: 0 1%;
+		border: 2px solid #01A1C8;
+		border-radius: 4px;
+	}
+	th, td{
+		border: solid 1px #ddd;
+		border-collapse: collapse;
+		padding: 2px 3px;
+	}
+	table{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	footer {
+		text-align: center;
+		padding: 3px;
+		font-size: 1.5em;
+		background-color: #006077;
+		color: white;
+	}
+}
+/*Pour les Ã©crans Ã  plus de 1366px*/
+@media only screen and (min-width: 1366px) {
+	#hist{
+		margin: 0 20%;
+	}
+	body{
+		background-color: #01A1C8;
+	}
+	#container{
+		margin: auto;
+		height: auto;
+		width: 60%;
+		background-color: white;
+		padding: 50px;
+	}
+	#search{
+		display: flex;
+		justify-content: center;
+	}
+	#search input, select{
+		margin: 0 2%;
+		border: 2px solid #01A1C8;
+		border-radius: 4px;
+		font-size: 1.2em;
+	}
+	th, td {
+		border: solid 1px #ddd;
+		border-collapse: collapse;
+		padding: 2px 3px;
+	}
+	table{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 2%;
+	}
+	footer {
+		text-align: center;
+		padding: 3px;
+		background-color: #006077;
+		color: white;
+	}
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<link rel="stylesheet" href="style.css">
+		<title>ESAIP - Green IT</title>
+	</head> 
+    <body>
+		<div id="container">
+			<img id="design4green" alt="ESAIP" src="design4green.png">
+            <h1>RECHERCHE D'INDICE DE FRAGILITE NUMERIQUE</h1>
+
+            <br> PETIT POINT CULTURE:
+            <table width="100%" border ="1" cellspacing="1" cellpadding="1"><td>L'indice de fragilité numérique révèle la probabilité que sur un territoire donné, une partie significative de la population ciblée se trouve en situation d'exclusion numérique. 
+                <br><br> Pour plus d'informations veuillez cliquer sur le Bouton ci-dessous:
+                <form action="https://lamednum.coop/actions/indice-de-fragilite-numerique/#:~:text=L'indice%20de%20fragilit%C3%A9%20num%C3%A9rique%20r%C3%A9v%C3%A8le%20la%20probabilit%C3%A9%20que%20sur,en%20situation%20d'exclusion%20num%C3%A9rique.">
+                    <button type="submit">plus d'informations</button>
+            </td></table>
+                <br>Pour rechercher l'indice de fragilité numérique de votre région il suffit de:
+            <table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td>
+                <b>étape 1:</b> Saisir votre code postal et/ou le libellé de votre département
+            <br><b> étape 2:</b> Regarder le resultat </td><tr></table>
+			<br><div id="search">
+				<input type="text" id="CodePostal" name="nom" placeholder="Code postal" size="20">
+				<input type="text" id="search" name="prenom" placeholder="libDep" size="20">
+
+			</div>
+			<div id="hist">
+				<fieldset>
+				<legend>Historique</legend>
+				<p id="ph_eleves" style="display: none">Nombre d'élève(s) selectionné(s) : </p><p id="nb_eleves"></p>
+					<table id="table_hist"></table>
+				</fieldset>
+            </div>
+            <br>
+            <table width="100%" border ="1" cellspacing="1" cellpadding="1"><tr><td><b>Comprendre le résultat de l'indice de fragilité de votre région:</b>
+            <br> si votre indice est supérieur à 
+            <br> si celui-ci est inférieur alors 
+            </td><tr></table>
+			<table id="table"></table>	
+		</div>
+  		<script src="application.js"></script>
+		<footer>
+		  <p>Projet Design4Green<br>Paul LEVRARD - Manea MAZELLIER - Amaury COUPARD - Thomas DEMONT - Lorenzo HUGUES<br>
+		  <a href="mentions.html">Mentions Légales</a></p>
+		</footer>
+    </body>
+</html>
